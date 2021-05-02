@@ -1,6 +1,6 @@
 ﻿/*************************************************
 * N.Kozak // Lviv'2020 // ACM // FCL use example *
-*    file: ACMHW20.cs                            *
+*    file: ACMHW22_1.cs                            *
 **************************************************/
 using System;
 //using System.Collections;
@@ -11,8 +11,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace ACMHW20{
-    class ACMHW20{
+namespace ACMHW22_1{
+    class ACMHW22_1{
         const char FIRST_CH = 'K';
 
         const int MAX_BUFFER_SIZE = 8192;
