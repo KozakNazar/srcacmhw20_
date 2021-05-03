@@ -174,7 +174,7 @@ namespace ACMHW22_1{
         }
     
         static void Main(string[] args){
-		ACMHW20 acmhw20 = new ACMHW20();
+		ACMHW22_1 acmhw22_1 = new ACMHW22_1();
 
 		List<int> list = new List<int>();
 		String text = 
@@ -185,20 +185,20 @@ namespace ACMHW22_1{
 			"Our indiscretion sometimes serves us well ... "
 			; // — Hamlet, Act 5, Scene 2, 4–8
 
-        acmhw20.scan(text, list);
-        acmhw20.sort(text, list);
+        acmhw22_1.scan(text, list);
+        acmhw22_1.sort(text, list);
         Dictionary<int, String> mapList = acmhw20.getMapList(text, list);
 
         Console.WriteLine("Indexes:");
-        acmhw20.printListIndexes(list);
+        acmhw22_1.printListIndexes(list);
 
         Console.WriteLine();
         Console.WriteLine("Values:");
-        acmhw20.print(text, list);
+        acmhw22_1.print(text, list);
 
         Console.WriteLine();
         Console.WriteLine("Values(by map):");
-        acmhw20.printMapList(mapList);
+        acmhw22_1.printMapList(mapList);
 
         Console.WriteLine("Press any key to continue . . . ");
         Console.ReadKey();
