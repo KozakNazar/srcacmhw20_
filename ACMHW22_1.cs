@@ -187,7 +187,7 @@ namespace ACMHW22_1{
 
         acmhw22_1.scan(text, list);
         acmhw22_1.sort(text, list);
-        Dictionary<int, String> mapList = acmhw20.getMapList(text, list);
+        Dictionary<int, String> mapList = acmhw22_1.getMapList(text, list);
 
         Console.WriteLine("Indexes:");
         acmhw22_1.printListIndexes(list);
